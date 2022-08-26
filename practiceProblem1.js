@@ -37,6 +37,6 @@ I love to eat biryani.`;
 //Solution:
 const sayHello = (firstName, lastName = '') => `Hello ${firstName} ${lastName}`
 
-console.log(sayHello('John'));
+// console.log(sayHello('John'));
 
 
