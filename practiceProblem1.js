@@ -27,6 +27,16 @@ I am a web developer.
 I love to code. 
 I love to eat biryani.`;
 
-console.log(multilineStirng);
+// console.log(multilineStirng);
+
+
+
+//Problem 3:
+//Write an arrow function that will take 2 parameters: One parameter will come from you and the other parameter will be a default parameter. Add these two parameters and return the result.
+
+//Solution:
+const sayHello = (firstName, lastName = '') => `Hello ${firstName} ${lastName}`
+
+console.log(sayHello('John'));
 
 
